@@ -4,7 +4,7 @@
 ###
 
 :antergos_boot
-kernel ${memdisk} iso raw
+kernel https://boot.netboot.xyz/memdisk iso raw
 initrd http://repo.antergos.info/iso/release/antergos-minimal-17.4-x86_64.iso
 boot
 goto antergos_exit
