@@ -9,5 +9,5 @@ initrd http://repo.antergos.info/iso/release/antergos-minimal-17.4-x86_64.iso
 boot
 goto antergos_exit
 
-:custom_exit
+:antergos_exit
 exit 0
